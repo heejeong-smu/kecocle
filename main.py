@@ -3,7 +3,7 @@ from Dice import DiceProbability
 # 1-6 값이 나올 수 있는 확률을 구해서 화면에 출력
 
 def main():
-    # 객체 생성
+    # 객체 생성 후 파일 실행.
     total = input("주사위를 몇번 굴리시나요?\n")
     dice = DiceProbability(int(total))
     # 생성된 객체에서 method를 사용
